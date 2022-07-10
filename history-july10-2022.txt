@@ -1,0 +1,43 @@
+docker -v
+docker image
+docker images
+docker ps 
+docker ps -a
+docker run hello-world
+docker images
+docker ps 
+docker ps -a
+docker run -itd -p 80:80 httpd
+docker ps
+docker ps -a
+docker run -itd -p 81:80 httpd
+docker ps 
+docker run -itd -p 82:80 nginx
+docker run -itd -p 83:80 nginx
+docker ps
+docker ps -a
+docker rmi $(docker images)
+docker rmi `docker images`
+docker rmi `docker images` -f
+docker images 
+docker rmi 55f4b40fe486 ac826143758d
+docker rmi 55f4b40fe486 ac826143758d -f
+docker rm `docker ps -aq`
+docker rm `docker ps -aq` -f
+docker rmi 55f4b40fe486 ac826143758d -f
+docker images 
+docker search httpd 
+docker search nginx
+docker search jenkins
+docker search ansible
+docker pull httpd
+docker pull ubuntu
+docker images 
+docker pull nginx
+docker images 
+docker pull httpd:alpin
+docker pull httpd:alpine
+docker images 
+docker pull centos
+docker images 
+history | cut -c 8-
