@@ -1,0 +1,34 @@
+docker 
+docker network ls 
+docker network create abc
+docker network ls 
+docker run -d -p 80:80 --network=abc nginx
+dockre sp 
+docker ps 
+docker inspect jolly_hoover
+docker network inspect abc
+docker inspect jolly_hoover
+history | cut -c 8- 
+docker run -d -p 81:80 --network=abc httpd 
+docker ps 
+docker inspect agitated_williams
+history | cut -c 8- 
+docker ps 
+
+yum install python3-pip
+pip3 install docker-compose
+docker-compose
+
+whereis docker-compose
+
+ln -fs  /usr/local/bin/docker-compose /usr/bin/docker-compose 
+
+
+docker-compose -v
+vim  docker-compose.yaml
+
+docker-compose up -d
+docker ps 
+history | cut -c 8- 
+
+
