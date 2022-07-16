@@ -1,0 +1,53 @@
+docker 
+docker network ls 
+docker network create abc
+docker network ls 
+docker run -d -p 80:80 --network=abc nginx
+dockre sp 
+docker ps 
+docker inspect jolly_hoover
+docker network inspect abc
+docker inspect jolly_hoover
+history | cut -c 8- 
+docker run -d -p 81:80 --network=abc httpd 
+docker ps 
+docker inspect agitated_williams
+history | cut -c 8- 
+docker ps 
+yum install docker-compose
+pip install docker-compose
+yum install python-pip
+pip install docker-compose
+docker-compose
+yum install python3-pip3
+yum install python3-pip
+pip3 install docker-compose
+docker-compose
+whereis docker-compose
+ln -fs  /usr/local/bin/docker-compose /usr/bin/docker-compose 
+docker-compose
+docker-compose -v
+vim  docker-compose.yaml
+docker-compose docker-compose.yaml 
+docker-compose docker-compose.yaml up -d
+docker-compose up
+docker-compose up -d
+docker ps 
+history | cut -c 8- 
+sudo -i
+history | cut -c 8- 
+ssh-keygen 
+cd ~/.ssh/
+ll
+cat id_rsa.pub 
+cd -/op
+cd op
+cd /opt/
+git clone git@github.com:manikcloud/docker-terraform.git
+yum install git -y
+git clone git@github.com:manikcloud/docker-terraform.git
+cd docker-terraform/
+ll
+git switch docker-compose 
+history | cut -c 8- 
+history | cut -c 8- > history.txt
