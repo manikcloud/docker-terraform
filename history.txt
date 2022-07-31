@@ -1,0 +1,50 @@
+    1  yum update -y
+
+    2  yum install docker
+
+    3  docker images
+
+    4  service docker start
+
+    5  docker images
+
+    6  docker pull registry:2
+
+    7  docker run -d -p5000:5000 --name=registry registry:2
+
+    8  docker images
+
+    9  docker pull ubuntu
+
+   10  docker images
+
+   11  docker ps
+
+   12  dokcer tag ubuntu localhost:5000/ubuntu
+
+   13  docker tag ubuntu localhost:5000/ubuntu
+
+   14  docker images
+
+   15  docker run -it 27941809078c /bin/bash
+
+   16  docker ps
+
+   17  docker network ls
+
+   18  docker network create abc
+
+   19  docker images
+
+   20  docker network ls
+
+   21  docker run -d -p 80:80 --network=abc nginx
+
+   22  docker ps 
+
+   23  docker inspect vifilant_wilbur
+
+   24  docker inspect vigilant_wilbur
+
+   25  docker network  inspect abc
+
